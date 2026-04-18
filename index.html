@@ -1,75 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-
-  <!-- Page Information
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Hola</title>
-  <meta name="description" content="My web">
-  <meta name="author" content="Pablo Archanco">
-
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <title>Pablo Archanco</title>
+  <meta name="description" content="Full-stack developer focused on Odoo · Madrid">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
-
-  <!-- CSS –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/custom.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton-dark.css">
-  <link rel="stylesheet" href="css/brands.css">
-
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="images/avatar.jpg">
-
 </head>
-
 <body>
+  <main>
+    <header>
+      <img src="images/avatar.jpg" alt="Pablo Archanco" class="avatar">
+      <h1>Pablo Archanco</h1>
+      <p class="tagline">Full-stack developer · Odoo specialist · Madrid</p>
+    </header>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div class="row">
-      <div class="column" style="margin-top: 10%">
-        <img src="images/avatar.jpg" class="avatar">
-        <h1>Pablo Archanco</h1>
-        <p>Esta es una lista de mis redes sociales para que puedas encontrarlas de forma fácil. De nada. Ah, ¿no dijiste
-          gracias? Bueno, no me sorprende.</p>
-        <p>I have created this page with <a href="https://github.com/sethcottle/littlelink">LittleLink</a> and <a
-            href="https://pages.github.com/"> Github Pages </a>
-        <h2>Check me out! </h2>
+    <section>
+      <p class="about">Building ERP integrations and internal tools at <a href="https://scalperscompany.com" target="_blank">Scalpers</a>. Focused on Python, Odoo and JavaScript.</p>
+    </section>
 
-        <!-- Github -->
-        <a class="button button-github" href="https://github.com/parchanco"><img class="icon"
-            src="icons/github.svg">Github</a>
+    <section>
+      <h2>Stack</h2>
+      <ul class="stack">
+        <li>Python · Odoo · XML/QWeb</li>
+        <li>JavaScript · TypeScript · React · Node.js</li>
+        <li>PostgreSQL · Docker · Kubernetes</li>
+      </ul>
+    </section>
 
-        <!-- Instagram -->
-        <a class="button button-instagram" href="https://www.instagram.com/parchancoa/"><img class="icon"
-            src="icons/instagram.svg">Instagram</a>
-
-        <!-- LinkedIn -->
-        <a class="button button-linkedin" href="https://www.linkedin.com/in/pablo-archanco-alonso-698284121/"><img
-            class="icon" src="icons/linkedin.svg">LinkedIn</a>
+    <section>
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <a class="project-card" href="https://github.com/parchanco/opencode-orchestrator-template" target="_blank">
+          <span class="project-name">opencode-orchestrator</span>
+          <span class="project-desc">Multi-agent AI orchestration for coding assistants</span>
+          <span class="project-lang">Python</span>
+        </a>
+        <a class="project-card" href="https://github.com/parchanco/odoo-k8s" target="_blank">
+          <span class="project-name">odoo-k8s</span>
+          <span class="project-desc">Odoo on Kubernetes with minikube</span>
+          <span class="project-lang">HCL · Kubernetes</span>
+        </a>
+        <a class="project-card" href="https://github.com/parchanco/takeyourcreatine" target="_blank">
+          <span class="project-name">takeyourcreatine</span>
+          <span class="project-desc">Twitter bot to remind you to take your creatine</span>
+          <span class="project-lang">JavaScript</span>
+        </a>
+        <a class="project-card" href="https://github.com/parchanco/mini-curso-practico-webpack" target="_blank">
+          <span class="project-name">mini-curso-webpack</span>
+          <span class="project-desc">Practical Webpack 5 course material</span>
+          <span class="project-lang">JavaScript</span>
+        </a>
       </div>
-    </div>
+    </section>
 
-    <!-- End Document –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G9MLVMRYJ9"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() { dataLayer.push(arguments); }
-      gtag('js', new Date());
-
-      gtag('config', 'G-G9MLVMRYJ9');
-    </script>
+    <section>
+      <h2>Links</h2>
+      <nav>
+        <a href="https://github.com/parchanco" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/pablo-archanco-alonso-698284121/" target="_blank">LinkedIn</a>
+        <a href="mailto:pabloarchanco@gmail.com">Email</a>
+      </nav>
+    </section>
+  </main>
 </body>
-
 </html>
